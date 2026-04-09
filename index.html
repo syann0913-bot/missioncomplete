@@ -329,7 +329,7 @@ export default function App() {
                      const parsed = JSON.parse(importText);
                      saveData(
                        parsed.accounts || parsed, 
-                       parsed.appTitle || '🌸 末日任務',
+                       parsed.appTitle || '🌸 進度助你',
                        parsed.taskColumns || defaultColumns
                      );
                      setShowImportModal(false);
@@ -347,4 +347,3 @@ export default function App() {
       )}
     </div>
   );
-}
